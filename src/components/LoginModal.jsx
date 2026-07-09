@@ -198,7 +198,7 @@ const LoginModal = () => {
                 <label className="remember-me">
                   <input type="checkbox" /> Remember me
                 </label>
-                <a href="#" className="forgot-password">
+                <a href="/#" className="forgot-password">
                   Forgot password?
                 </a>
               </div>
