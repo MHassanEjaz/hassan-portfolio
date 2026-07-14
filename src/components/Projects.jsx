@@ -72,6 +72,19 @@ const Projects = () => {
       rating: 4.8,
       views: 1560
     },
+    {
+      id: 4,
+      title: 'Ml engineer',
+      description: 'Binary classification model predicting heart disease risk from patient clinical data. Compared Random Forest, Logistic Regression, Naive Bayes, and KNN. Random Forest achieved 87% accuracy and 86.79% F1-score. Live Streamlit app available.',
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      tech: ['Python', 'Scikit-learn', 'Random Forest', 'KNN', 'Naive Bayes', 'Streamlit'],
+      github: 'https://github.com/MHassanEjaz/heart-disease-prediction',
+      live: 'https://heart-disease-disease-prediction-123.streamlit.app/',
+      hasLive: true,
+      category: 'AI/ML',
+      rating: 4.8,
+      views: 1560
+    },..
   ];
 
   // ── Define all functions BEFORE useEffect ──
