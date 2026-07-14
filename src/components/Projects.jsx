@@ -488,38 +488,6 @@
 //                     <div className="project-content">
 //                       <h3 className="project-title">{project.title}</h3>
 //                       <p className="project-description">{project.description}</p>
-                      
-//                       {/* Tech Stack */}
-//                       <div className="project-tech">
-//                         {project.tech.map((tech, idx) => (
-//                           <span key={idx} className="tech-tag">{tech}</span>
-//                         ))}
-//                       </div>
-
-//                       {/* Project Actions */}
-//                       <div className="project-actions">
-//                         <a 
-//                           href={project.github}
-//                           target="_blank"
-//                           rel="noopener noreferrer"
-//                           className="action-btn github-btn"
-//                         >
-//                           <FaGithub /> Code
-//                         </a>
-//                         <a 
-//                           href={project.hasLive ? project.live : project.github}
-//                           target="_blank"
-//                           rel="noopener noreferrer"
-//                           className="action-btn live-btn"
-//                         >
-//                           {project.hasLive 
-//                             ? <><FaExternalLinkAlt /> Live Demo</>
-//                             : <><FaGithub /> View on GitHub</>
-//                           }
-//                         </a>
-//                       </div>
-//                     </div>
-
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { 
