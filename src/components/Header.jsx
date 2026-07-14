@@ -1,11 +1,3 @@
-// import React, { useState } from "react";
-// import { FaShoppingCart, FaUser } from 'react-icons/fa';
-// import { useCart } from './CartContext';
-// import { useAuth } from './AuthContext';
-// import CartModal from './CartModal'; 
-// import LoginModal from './LoginModal';
-
-
 
 import React, { useState } from "react";
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
