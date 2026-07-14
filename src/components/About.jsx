@@ -91,9 +91,7 @@ const About = () => {
 
         <div className="about-box" ref={aboutBoxRef}>
           <p className="about-text">
-            {/* I'm a software engineer experienced in MERN stack development,
-            primarily in React.js, Next.js, and full-stack applications.
-            I also have experience building scalable and modern user interfaces. */}
+            
             I'm a AI/ML Engineer with hands-on experience building end-to-end 
             machine learning systems, LLM-powered applications, and 
             deployed data science solutions.
