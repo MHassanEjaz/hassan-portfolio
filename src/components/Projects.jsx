@@ -571,35 +571,6 @@
 //                 </div>
                 
 //                 <div className="grid-actions">
-//                   <a 
-//                     href={project.github} 
-//                     target="_blank" 
-//                     rel="noopener noreferrer"
-//                     title="View Code"
-//                   >
-//                     <FaGithub />
-//                   </a>
-//                   <a 
-//                     href={project.hasLive ? project.live : project.github} 
-//                     target="_blank" 
-//                     rel="noopener noreferrer"
-//                     title={project.hasLive ? 'Live Demo' : 'View on GitHub'}
-//                   >
-//                     {project.hasLive ? <FaExternalLinkAlt /> : <FaGithub />}
-//                   </a>
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
-
-
 
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
