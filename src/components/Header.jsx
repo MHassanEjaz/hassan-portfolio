@@ -14,16 +14,6 @@
 //     const element = document.getElementById(sectionId);
 //     if (element) {
 //       element.scrollIntoView({ behavior: 'smooth' });
-//       document.querySelectorAll('.nav-links li').forEach(item => {
-//         item.classList.remove('active');
-//       });
-//       const navItem = document.querySelector(`[data-section="${sectionId}"]`);
-//       if (navItem) {
-//         navItem.classList.add('active');
-//       }
-//     }
-//   };
-
 
 
 import React, { useState } from "react";
