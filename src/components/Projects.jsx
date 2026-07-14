@@ -84,7 +84,7 @@ const Projects = () => {
       category: 'AI/ML',
       rating: 4.8,
       views: 1560
-    },..
+    },
   ];
 
   // ── Define all functions BEFORE useEffect ──
