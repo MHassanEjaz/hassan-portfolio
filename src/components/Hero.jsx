@@ -19,7 +19,7 @@ function Hero() {
     <section className="hero" id="home">
       <p className="hero-intro animate-down">Hi! I'm M Hassan 👋</p>
       <h1 className="animate-up">
-        AI/ML Engineer
+        {/* AI/ML Engineer */}
       </h1>
 
       <p className="hero-desc animate-fade">
