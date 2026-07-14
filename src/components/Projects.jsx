@@ -519,29 +519,6 @@
 //                         </a>
 //                       </div>
 //                     </div>
-//                   </div>
-//                 </div>
-//               ))}
-//             </div>
-//           </div>
-
-//           <button 
-//             className="slider-nav next"
-//             onClick={nextSlide}
-//             aria-label="Next project"
-//           >
-//             <FaArrowRight />
-//           </button>
-//         </div>
-
-//         {/* Project Dots Indicator */}
-//         <div className="slider-dots">
-//           {projects.map((_, index) => (
-//             <button
-//               key={index}
-//               className={`dot ${index === activeIndex ? 'active' : ''}`}
-//               onClick={() => goToSlide(index)}
-//               aria-label={`Go to slide ${index + 1}`}
 
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
