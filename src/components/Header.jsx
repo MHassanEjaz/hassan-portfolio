@@ -90,33 +90,7 @@
 //                   <span>Login</span>
 //                 </>
 //               )}
-//             </li>
-            
-//             {/* Cart Icon - Now uses toggleCart */}
-//             <li className="cart-icon-container" onClick={toggleCart}>
-//               <FaShoppingCart className="cart-icon" />
-//               {getItemCount() > 0 && (
-//                 <span className="cart-badge">{getItemCount()}</span>
-//               )}
-//             </li>
-//           </ul>
-//         </nav>
 
-//         <button className="contact-btn" onClick={() => scrollToSection('services')}>
-//           Get Started ↗
-//         </button>
-//       </header>
-
-//       {/* Add CartModal here */}
-//       <CartModal />
-      
-//       {/* Keep LoginModal */}
-//       <LoginModal />
-//     </>
-//   );
-// }
-
-// export default Header;
 
 
 import React, { useState } from "react";
