@@ -451,43 +451,6 @@
 //             aria-label="Previous project"
 //           >
 //             <FaArrowLeft />
-//           </button>
-
-//           <div className="slider-container">
-//             <div 
-//               className="slider-track"
-//               ref={sliderRef}
-//               style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-//             >
-//               {projects.map((project, index) => (
-//                 <div 
-//                   key={project.id} 
-//                   className={`slider-slide ${index === activeIndex ? 'active' : ''}`}
-//                 >
-//                   <div className="project-card">
-//                     {/* Project Image */}
-//                     <div className="project-image">
-//                       <img src={project.image} alt={project.title} />
-//                       <div className="project-badge">
-//                         {getCategoryIcon(project.category)}
-//                         <span>{project.category}</span>
-//                       </div>
-//                       <div className="project-stats">
-//                         <div className="stat">
-//                           <FaStar />
-//                           <span>{project.rating}</span>
-//                         </div>
-//                         <div className="stat">
-//                           <FaEye />
-//                           <span>{project.views.toLocaleString()}</span>
-//                         </div>
-//                       </div>
-//                     </div>
-
-//                     {/* Project Content */}
-//                     <div className="project-content">
-//                       <h3 className="project-title">{project.title}</h3>
-//                       <p className="project-description">{project.description}</p>
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { 
