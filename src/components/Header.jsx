@@ -52,45 +52,6 @@
 //               className="active" 
 //               onClick={() => scrollToSection('home')}
 //               data-section="home"
-//             >
-//               Home
-//             </li>
-//             <li 
-//               onClick={() => scrollToSection('about')}
-//               data-section="about"
-//             >
-//               About
-//             </li>
-//             <li 
-//               onClick={() => scrollToSection('services')}
-//               data-section="services"
-//             >
-//               Services
-//             </li>
-//             <li 
-//               onClick={() => scrollToSection('prayer')}
-//               data-section="prayer"
-//             >
-//               {/* Prayer Times */}
-//               Projects
-//             </li>
-
-            
-            
-//             {/* User Profile/Login */}
-//             <li className="user-profile-container" onClick={handleUserAction}>
-//               {user ? (
-//                 <>
-//                   <FaUser className="user-icon" />
-//                   <span className="user-name">{user.name?.split(' ')[0]}</span>
-//                 </>
-//               ) : (
-//                 <>
-//                   <FaUser className="user-icon" />
-//                   <span>Login</span>
-//                 </>
-//               )}
-
 
 
 import React, { useState } from "react";
