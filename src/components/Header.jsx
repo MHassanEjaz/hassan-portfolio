@@ -28,30 +28,6 @@
 //     if (user) {
 //       if (window.confirm(`Are you sure you want to logout, ${user.name}?`)) {
 //         alert('Logout functionality would go here');
-//       }
-//     } else {
-//       openLoginModal();
-//     }
-//   };
-
-//   return (
-//     <>
-//       <header className={`navbar-wrapper ${hidden ? "nav-hidden" : ""}`}>
-//         {/* Clickable Logo */}
-//         <div
-//           className="logo clickable"
-//           onClick={() => setHidden(!hidden)}
-//           title="Toggle Navbar"
-//         >
-//           M Hassan.
-//         </div>
-
-//         <nav className="navbar-pill">
-//           <ul className="nav-links">
-//             <li 
-//               className="active" 
-//               onClick={() => scrollToSection('home')}
-//               data-section="home"
 
 
 import React, { useState } from "react";
