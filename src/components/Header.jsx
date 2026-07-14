@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
 import { useCart } from './CartContext';
