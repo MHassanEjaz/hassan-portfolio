@@ -5,15 +5,6 @@
 // import CartModal from './CartModal'; 
 // import LoginModal from './LoginModal';
 
-// function Header() {
-//   const [hidden, setHidden] = useState(false);
-//   const { getItemCount, toggleCart } = useCart(); 
-//   const { user, openLoginModal } = useAuth();
-
-//   const scrollToSection = (sectionId) => {
-//     const element = document.getElementById(sectionId);
-//     if (element) {
-//       element.scrollIntoView({ behavior: 'smooth' });
 
 
 import React, { useState } from "react";
