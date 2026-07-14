@@ -24,10 +24,6 @@
 //     }
 //   };
 
-//   const handleUserAction = () => {
-//     if (user) {
-//       if (window.confirm(`Are you sure you want to logout, ${user.name}?`)) {
-//         alert('Logout functionality would go here');
 
 
 import React, { useState } from "react";
