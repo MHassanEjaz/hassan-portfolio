@@ -542,35 +542,6 @@
 //               className={`dot ${index === activeIndex ? 'active' : ''}`}
 //               onClick={() => goToSlide(index)}
 //               aria-label={`Go to slide ${index + 1}`}
-//             />
-//           ))}
-//         </div>
-
-//         {/* Projects Grid (for mobile/tablet) */}
-//         <div className="projects-grid">
-//           {projects.map((project) => (
-//             <div key={project.id} className="project-grid-card">
-//               <div className="grid-image">
-//                 <img src={project.image} alt={project.title} />
-//                 <div className="grid-badge">
-//                   {getCategoryIcon(project.category)}
-//                 </div>
-//               </div>
-              
-//               <div className="grid-content">
-//                 <h4>{project.title}</h4>
-//                 <p className="grid-description">{project.description}</p>
-                
-//                 <div className="grid-tech">
-//                   {project.tech.slice(0, 3).map((tech, idx) => (
-//                     <span key={idx} className="tech-chip">{tech}</span>
-//                   ))}
-//                   {project.tech.length > 3 && (
-//                     <span className="tech-more">+{project.tech.length - 3}</span>
-//                   )}
-//                 </div>
-                
-//                 <div className="grid-actions">
 
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
