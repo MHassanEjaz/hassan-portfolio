@@ -1,21 +1,4 @@
 
-
-//         <nav className="navbar-pill">
-//           <ul className="nav-links">
-//             <li 
-//               className="active" 
-//               onClick={() => scrollToSection('home')}
-//               data-section="home"
-//             >
-//               Home
-//             </li>
-//             <li 
-//               onClick={() => scrollToSection('about')}
-//               data-section="about"
-//             >
-//               About
-//             </li>
-//             <li 
 //               onClick={() => scrollToSection('services')}
 //               data-section="services"
 //             >
