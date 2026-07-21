@@ -1,28 +1,4 @@
-// import React, { useState } from "react";
-// import { FaShoppingCart, FaUser } from 'react-icons/fa';
-// import { useCart } from './CartContext';
-// import { useAuth } from './AuthContext';
-// import CartModal from './CartModal'; 
-// import LoginModal from './LoginModal';
-
-// function Header() {
-//   const [hidden, setHidden] = useState(false);
-//   const { getItemCount, toggleCart } = useCart(); 
-//   const { user, openLoginModal } = useAuth();
-
-//   const scrollToSection = (sectionId) => {
-//     const element = document.getElementById(sectionId);
-//     if (element) {
-//       element.scrollIntoView({ behavior: 'smooth' });
-//       document.querySelectorAll('.nav-links li').forEach(item => {
-//         item.classList.remove('active');
-//       });
-//       const navItem = document.querySelector(`[data-section="${sectionId}"]`);
-//       if (navItem) {
-//         navItem.classList.add('active');
-//       }
-//     }
-//   };
+/
 
 //   const handleUserAction = () => {
 //     if (user) {
