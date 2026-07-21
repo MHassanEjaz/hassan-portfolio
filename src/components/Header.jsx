@@ -1,13 +1,4 @@
 
-//       {/* Add CartModal here */}
-//       <CartModal />
-      
-//       {/* Keep LoginModal */}
-//       <LoginModal />
-//     </>
-//   );
-// }
-
 // export default Header;
 
 
