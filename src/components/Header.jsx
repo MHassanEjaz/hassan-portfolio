@@ -1,8 +1,4 @@
 
-// export default Header;
-
-
-
 import React, { useState } from "react";
 import { FaShoppingCart, FaUser, FaBars, FaTimes } from 'react-icons/fa';
 import { useCart } from './CartContext';
