@@ -1,28 +1,4 @@
 
-//             {/* User Profile/Login */}
-//             <li className="user-profile-container" onClick={handleUserAction}>
-//               {user ? (
-//                 <>
-//                   <FaUser className="user-icon" />
-//                   <span className="user-name">{user.name?.split(' ')[0]}</span>
-//                 </>
-//               ) : (
-//                 <>
-//                   <FaUser className="user-icon" />
-//                   <span>Login</span>
-//                 </>
-//               )}
-//             </li>
-            
-//             {/* Cart Icon - Now uses toggleCart */}
-//             <li className="cart-icon-container" onClick={toggleCart}>
-//               <FaShoppingCart className="cart-icon" />
-//               {getItemCount() > 0 && (
-//                 <span className="cart-badge">{getItemCount()}</span>
-//               )}
-//             </li>
-//           </ul>
-//         </nav>
 
 //         <button className="contact-btn" onClick={() => scrollToSection('contact')}>
 //           Get Started ↗
