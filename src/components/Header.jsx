@@ -1,22 +1,4 @@
 
-//               onClick={() => scrollToSection('services')}
-//               data-section="services"
-//             >
-//               Services
-//             </li>
-//             <li 
-//               onClick={() => scrollToSection('projects')}
-//               data-section="projects"
-//             >
-//               Projects
-//             </li>
-//             <li 
-//               onClick={() => scrollToSection('contact')}
-//               data-section="contact"
-//             >
-//               Contact
-//             </li>
-            
 //             {/* User Profile/Login */}
 //             <li className="user-profile-container" onClick={handleUserAction}>
 //               {user ? (
