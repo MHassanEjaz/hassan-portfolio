@@ -1,10 +1,4 @@
 
-
-//         <button className="contact-btn" onClick={() => scrollToSection('contact')}>
-//           Get Started ↗
-//         </button>
-//       </header>
-
 //       {/* Add CartModal here */}
 //       <CartModal />
       
